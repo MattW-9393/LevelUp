@@ -1,0 +1,174 @@
+
+
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+    margin-top: 0.5rem
+}
+
+main {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;}
+
+.site-heading {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline ;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.site-heading p {
+    padding: 3rem;
+    padding-top: 0;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#stats {
+    text-align: center;
+    margin-bottom: 2rem;;
+}
+
+h2 {
+    text-align: center;
+}
+
+#todo-list {
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    width: 50%;
+    min-width: 235px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.todo-list-item{
+padding: 0.5rem;;
+}
+
+.todo-list-item label{
+    width: 10rem;
+    display: inline-block;
+    text-align: left;
+}
+
+.todo-list-item input{
+    width: 10%;
+    display: inline;
+}
+
+#reset{
+    text-align: center; 
+    margin-left: 45%;
+    margin-top: 2rem;
+}
+
+footer {
+    border-top: 2px solid white;
+    padding-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 412px) {
+html {
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.site-heading {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline ;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.site-heading p {
+    padding: 3rem;
+    padding-top: 0;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#stats {
+    text-align: center;
+    margin-bottom: 2rem;;
+}
+
+h2 {
+    text-align: center;
+}
+
+#todo-list {
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    width: 50%;
+    min-width: 235px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.todo-list-item{
+padding: 0.5rem;;
+}
+
+.todo-list-item label{
+    width: 10rem;
+    display: inline-block;
+    text-align: left;
+}
+
+.todo-list-item input{
+    width: 10%;
+    display: inline;
+}
+
+#reset{
+    text-align: center; 
+    margin-left: 40%;
+    margin-top: 2rem;
+}
+
+footer {
+    margin-top: 25%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+}

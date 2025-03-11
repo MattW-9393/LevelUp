@@ -1,0 +1,259 @@
+html{
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    color: #ebe8e8;
+    background-color: #1f1f1f;
+    
+}
+
+a {
+    color: #fafafa;
+}
+
+/* header section */
+
+header{
+display: flex;
+justify-content: center;
+border-bottom: solid 1px #fafafa;
+}
+
+
+.site-anchors li{
+    display: inline;
+    padding: 0.5rem;
+}
+
+/* banner Section */
+.banner{
+    padding: 1rem 1rem 5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.banner #logo{
+height: 10rem;
+padding-right: 2rem;
+padding-left: 2rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+
+/* all containers */
+.container{
+    height: auto;
+    padding-bottom: 2.5rem;
+    width: 100%;
+    /*border-bottom: 1px solid white;*/
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.container h2{
+    width: 100%;
+    font-size: 3rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*about me */
+
+
+.about{
+    display: flex;
+    align-items: space-around;
+    margin-left: 15%;
+}
+
+.about img{
+    height: 12rem;
+    padding: 0.75rem;
+    justify-content: center;
+    padding-left: 2rem;
+    justify-self: flex-end;
+    margin-left: 12rem;
+}
+
+.about p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 2rem;
+    margin: 0;
+    width: 50%;
+}
+
+/* projects */
+
+.proj-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project{
+    display: flex;
+    min-width: 15%;
+    max-width: 33%;
+    height: auto;
+    border: solid 1px #fafafa;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0.25rem;
+    }
+
+.project h3{
+width: 100%;
+padding: 0.5rem;
+text-align: center;
+height: 10%;
+}
+
+.project img{
+    max-width: 15rem;
+    min-width: none;
+    overflow: hidden;
+    align-items: flex-start;
+    margin: auto 0;
+    height: 40%;
+    padding-top: 0.75rem;
+}
+
+.project p{
+    text-align: center;
+    vertical-align: middle;
+    height: 40%;
+    padding: 0rem 1rem;
+}
+
+/* meet Goldie */
+
+.goldie-title {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.meet-goldie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#half-biscuit{
+    display: none;
+}
+
+#biscuit {
+    display: inline;
+}
+
+#hungry-lab {
+    display: inline;
+}
+
+#sleepy-dog {
+    display: none;
+}
+
+#feed-me{
+    background-color: #ed3e44;
+    color: #fafafa;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+#feed-me-again{
+    background-color: #ed3e44;
+    color: #fafafa;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: none;
+}
+
+button {
+    margin: auto;
+    display: block;
+}
+
+
+/* contact me */
+
+.contact-container{
+display: flex;
+justify-content: space-around;
+padding: 1rem;
+flex-wrap: wrap;
+}
+
+#reach-out {
+    text-align: center;
+}
+
+.contact{
+    min-width: 5%;
+    max-width: 33%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+/* mobile sizing */
+
+@media (min-width: 0) and (max-width: 430px) { 
+    .banner img {
+        display: none;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .about p {
+        margin-left: 25%;
+    }
+
+    .project p, h3 {
+        display: none;
+    }
+    
+    html {  
+        font-size: 50%
+    }
+
+    h1{
+        margin-left: 15%;
+    }
+}
+
+
+/* laptop screen sizing */
+
+@media  (min-width: 1080px) and (max-width: 1400px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+
